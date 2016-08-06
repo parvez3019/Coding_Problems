@@ -1,6 +1,6 @@
-package salestaxproblem.item;
+package codingchallenge.salestaxproblem.item;
 
-import salestaxproblem.tax.TaxCalculatorInterface;
+import codingchallenge.salestaxproblem.tax.TaxCalculatorInterface;
 
 /**
  * Created by parvez on 1/8/16.

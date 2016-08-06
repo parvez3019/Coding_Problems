@@ -1,6 +1,6 @@
-package salestaxproblem.cart;
+package codingchallenge.salestaxproblem.cart;
 
-import salestaxproblem.item.ItemInterface;
+import codingchallenge.salestaxproblem.item.ItemInterface;
 
 /**
  * Created by parvez on 1/8/16.

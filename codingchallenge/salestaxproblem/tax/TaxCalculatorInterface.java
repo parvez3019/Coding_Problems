@@ -1,8 +1,8 @@
-package salestaxproblem.tax;
+package codingchallenge.salestaxproblem.tax;
 
-import salestaxproblem.item.Item;
-import salestaxproblem.item.ItemDefine;
-import salestaxproblem.item.ItemInterface;
+import codingchallenge.salestaxproblem.item.Item;
+import codingchallenge.salestaxproblem.item.ItemDefine;
+import codingchallenge.salestaxproblem.item.ItemInterface;
 
 /**
  * Created by parvez on 1/8/16.

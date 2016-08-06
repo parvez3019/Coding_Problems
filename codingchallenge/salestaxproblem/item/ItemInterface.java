@@ -1,4 +1,4 @@
-package salestaxproblem.item;
+package codingchallenge.salestaxproblem.item;
 
 /**
  * Created by parvez on 1/8/16.

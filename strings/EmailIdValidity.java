@@ -8,6 +8,8 @@ import java.util.regex.Pattern;
 
 //Check if email-id is valid or not.
 /*
+
+// regex [_A-Za-z0-9-]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\\.[A-Za-z0-9-]+)*(\\.[A-Za-z]{2,})$"
    *  ^                     * start of the line
    [_A-Za-z0-9-]+      * expression inside[ ] indicates string can only contain alphabets,digits
                          (+)  must contains one or more
@@ -32,10 +34,7 @@ public class EmailIdValidity {
 
     public static void IsEmailValid(String emailID){
         String emailRegex = "^[_A-Za-z0-9-]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\\.[A-Za-z0-9-]+)*(\\.[A-Za-z]{2,})$";
-
-//       regex [_A-Za-z0-9-]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\\.[A-Za-z0-9-]+)*(\\.[A-Za-z]{2,})$"
         boolean isValid =  emailID.matches(emailRegex);
-
         System.out.print(isValid);
     }
 
