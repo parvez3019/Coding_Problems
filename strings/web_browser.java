@@ -1,4 +1,4 @@
-package codingchallenge;
+package strings;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
