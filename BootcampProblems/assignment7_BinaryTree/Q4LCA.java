@@ -65,9 +65,7 @@ public class Q4LCA {
 	{
 		if(root == null)
 			return null;
-		
-		if(root.data == num)
-		{
+		if(root.data == num) {
 			return root;
 		}
 		BinaryTreeNode<Integer> node1 = findnode(root.left, num);

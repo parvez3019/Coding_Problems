@@ -7,13 +7,10 @@ public class Q2 {
 	public static int countzero(int num) {
 		if(num == 0)
 			return 0;
-
 		if(num %10 ==0)
 			return 1 + countzero(num / 10);
 		else
-			return countzero(num/10); 
-
-		
+			return countzero(num/10);
 	}
 	
 	public static void main(String[] args) {

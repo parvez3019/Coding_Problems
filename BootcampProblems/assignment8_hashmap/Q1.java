@@ -1,4 +1,4 @@
-package assignment8;
+package  BootcampProblems.assignment8_hashmap;
 
 import java.util.ArrayList;
 
@@ -32,8 +32,7 @@ class Map<K, V>
 		return getSize()==0;
 	}
 	
-	public int getBucketIndex(K key)
-	{
+	public int getBucketIndex(K key) {
 		return key.hashCode()%numBuckets;
 	
 	}

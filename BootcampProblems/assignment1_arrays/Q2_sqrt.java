@@ -9,7 +9,6 @@ import java.util.Scanner;
 
 
 public class Q2_sqrt {
-	
 		public static double calculateSqrt (int n) {
 	
 			double rootValue = 1.00;

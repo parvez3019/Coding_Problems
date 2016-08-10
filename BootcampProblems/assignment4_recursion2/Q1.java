@@ -3,11 +3,8 @@ package BootcampProblems.assignment4_recursion2;
 //Implement Binary Search Recursively
 
 public class Q1 {
-	
 	public static int BinarySearch(int[] arr , int low , int high, int key) {
-		
-		if(low < high)
-		{
+		if(low < high) {
 			int mid = ( low + high ) / 2;	
 			if(arr[mid] == key )
 				return mid;
@@ -16,7 +13,6 @@ public class Q1 {
 			else if(arr[mid] < key)
 				return BinarySearch(arr, mid+1, high, key);
 		}
-		
 		return -1;
 	} 
 	

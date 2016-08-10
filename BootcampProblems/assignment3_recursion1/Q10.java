@@ -7,20 +7,13 @@ package BootcampProblems.assignment3_recursion1;
 //pairStar("aaaa") → "a*a*a*a"
 
 public class Q10 {
-	
 	public static String identicalchar(String str) {
-	
 		if(str.length() < 2)
 			return str;
-		
-		if(str.charAt(0) == str.charAt(1))
-		{
+		if(str.charAt(0) == str.charAt(1)) {
 			return str.charAt(0)+"*" + identicalchar(str.substring(1));
 		}
-		
 		return str.charAt(0) + identicalchar(str.substring(1));
-		
-	
 	}
 	
 	public static void main(String[] args) {

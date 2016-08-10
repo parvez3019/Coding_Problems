@@ -43,8 +43,7 @@ public class reversell {
 
 	public static Node<Integer> reverserecursion(Node<Integer> head ,Node<Integer> prev) {
 		Node<Integer> current = head;
-		if(current.next == null)
-		{
+		if(current.next == null) {
 			head = current;
 			current.next = prev;
 		}

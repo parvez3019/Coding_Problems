@@ -11,11 +11,9 @@ public class Q12 {
 
 	public static void printreverse(Node<Integer> head) {
 		
-		if(head.next == null)
-		{	
+		if(head.next == null) {
 			System.out.print(head.data + "->");
 			return;
-		
 		}
 		printreverse(head.next);
 		System.out.print(head.data+"->");

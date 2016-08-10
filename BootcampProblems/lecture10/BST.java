@@ -65,7 +65,6 @@ public class BST {
 				return false;
 		
 		}
-		
 		return false;
 	}
 	
@@ -87,7 +86,6 @@ public class BST {
 		if(root == null)
 			return null;
 		ArrayList<BinaryTreeNode<Integer>> pathlist = new ArrayList<>();
-//		BinaryTreeNode<Integer> temp = root;
 		while(root != null && root.data != num)
 		{
 			while(root != null && root.data > num)
@@ -113,7 +111,6 @@ public class BST {
 	{
 		if(root == null)
 			return Integer.MIN_VALUE;
-	
 		return Math.max(root.data, Math.max(findMax(root.left), findMax(root.right)));
 	}
 	

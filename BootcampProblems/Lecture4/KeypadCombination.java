@@ -21,15 +21,12 @@ public class KeypadCombination {
 	}
 	
 	public static void printKeyboard(String num ,String ansSoFar) {
-		
-		if(num.length() == 0)
-		{
+		if(num.length() == 0) {
 			System.out.println(ansSoFar);
 			return;
 		}
 		
 		String options = getoption(num.charAt(0));
-		
 		for(int i = 0 ; i < options.length() ; i++)
 		{
 			printKeyboard(num.substring(1), ansSoFar + options.charAt(i));

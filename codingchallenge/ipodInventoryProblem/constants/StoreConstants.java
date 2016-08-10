@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
  * Created by parvez on 3/8/16.
  */
 public class StoreConstants {
-    public static enum Item{
+    public enum Item{
         IPOD, IPHONE;
         public static Item getItemType(String itemTypeStr){
             if("IPOD".equalsIgnoreCase(itemTypeStr))
@@ -17,7 +17,7 @@ public class StoreConstants {
         }
     }
 
-    public static final String  OUT_OF_STOCK = "OUT OF STOCK";
+    public static final String OUT_OF_STOCK = "OUT OF STOCK";
     public static final int BRAZIL_IPHONE_COST = 100;
     public static final int BRAZIL_IPHONE = 100;
     public static final int BRAZIL_IPOD_COST = 65;

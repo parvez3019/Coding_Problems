@@ -20,13 +20,10 @@ public class Q2 {
 	
 	
 	public static void printsubstrings(String str , String ansSoFar) {
-	
-		if(str.length()==0)
-        {
+		if(str.length()==0) {
             System.out.println(ansSoFar); 
             return;
         }
-
 		printsubstrings(str.substring(1), ansSoFar + str.substring(0,1));
 		printsubstrings(str.substring(1), ansSoFar);
 
@@ -34,8 +31,7 @@ public class Q2 {
 	
 	public static String[] returnsubseq(String str)
 	{
-		if(str.length() == 0)
-		{
+		if(str.length() == 0) {
 			String[] output = {""};
 			return output;
 		}
@@ -43,8 +39,7 @@ public class Q2 {
 		String[] output = new String[2* Smalleroutput.length];
 		for(int i =0 ; i < Smalleroutput.length ; i++)
 			output[i] =  Smalleroutput[i];
-		for(int i =  0 ; i < Smalleroutput.length ; i++)
-		{
+		for(int i =  0 ; i < Smalleroutput.length ; i++) {
 			output[i + Smalleroutput.length] = str.charAt(0) + Smalleroutput[i]; 
 		}
 		return output;

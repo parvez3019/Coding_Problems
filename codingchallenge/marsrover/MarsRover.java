@@ -12,7 +12,6 @@ import java.util.List;
  * Created by parvez on 7/8/16.
  */
 public class MarsRover {
-
     private Coordinates currentCoordinates;
     private Direction currentDirection;
     private Plateau plateau;

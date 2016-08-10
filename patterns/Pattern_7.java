@@ -42,8 +42,8 @@ public class Pattern_7 {
             }
 
         }
-        printMatrix(matrix);
 
+        printMatrix(matrix);
 
     }
 

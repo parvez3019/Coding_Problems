@@ -4,8 +4,7 @@ package BootcampProblems.assignment3_recursion1;
 
 public class Q8 {
 
-	public static int sumofdigits(int num) 
-	{
+	public static int sumofdigits(int num) {
 		if(num / 10 == 0)
 			return num;
 		num = num%10 +  sumofdigits(num/10);

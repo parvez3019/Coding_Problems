@@ -9,24 +9,16 @@ package BootcampProblems.assignment3_recursion1;
 public class Q5 {
 	public static void changePi(String str)
 	{
-		if(str.length() < 2)
-		{
+		if(str.length() < 2) {
 			System.out.print(str);
 			return;	
-		}
-		if(str.charAt(0) == 'p' && str.charAt(1) == 'i')
-		{
+		}if(str.charAt(0) == 'p' && str.charAt(1) == 'i') {
 			System.out.print("3.14");
 			changePi(str.substring(2));
-		}
-		else
-		{
+		} else {
 			System.out.print(str.charAt(0));
 			changePi(str.substring(1));	
 		}
-//		if(str.substring(0, 2).equals("pi"))
-//			return "3.14" + changePi(str.substring(2));
-//		return str.charAt(0) + changePi(str.substring(1));
 	}
 	
 	

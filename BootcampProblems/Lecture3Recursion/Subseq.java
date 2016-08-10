@@ -40,10 +40,8 @@ public class Subseq {
 		return " ";
 	}
 	
-	public static String[] keypadcombination(String input)
-	{
-		if(input.length() == 0)
-		{			
+	public static String[] keypadcombination(String input) {
+		if(input.length() == 0) {
 			String[] output = new String[1];
 			output[0] = " ";
 			return output;
@@ -52,22 +50,15 @@ public class Subseq {
 		String option = getoption(input.charAt(0));
 		String[] output = new String[option.length() *smallerouput.length];
 		int index = 0;
-		for(int i = 0 ; i < option.length() ; i++)
-		{
-			for(int j = 0 ; j < smallerouput.length ; j++)
-			{
+		for(int i = 0 ; i < option.length() ; i++) {
+			for(int j = 0 ; j < smallerouput.length ; j++) {
 				output[index] = option.charAt(i) + smallerouput[j];
 				index++;
 			}
 		}
-
-		
 		return output;
-		
-			
 	}
-	
-	
+
 	public static void main(String[] args) {
 //		String a = "abh";
 		printstring(subsequence("abc"));

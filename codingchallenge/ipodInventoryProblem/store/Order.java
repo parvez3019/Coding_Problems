@@ -32,7 +32,6 @@ public class Order {
 
     public Set<StoreConstants.Item> getItems() {
         return this.items.keySet();
-
     }
 
     public String getNationality() {

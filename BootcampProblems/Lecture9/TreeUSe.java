@@ -65,8 +65,7 @@ public class TreeUSe {
 	}
 	
 	
-	public static int countNoOfNodes(TreeNode<Integer> root)
-	{	
+	public static int countNoOfNodes(TreeNode<Integer> root) {
 		int count = 1;
 		for(int i = 0 ; i < root.children.size() ; i++)
 		{

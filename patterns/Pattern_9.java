@@ -26,8 +26,7 @@ public class Pattern_9 {
             for (int j = 0; j <= i; j++) {
                 System.out.print("\t");
             }
-            for (int j = 0 ; j <=  2*(n-i-1)-2 ;j++)
-            {
+            for (int j = 0 ; j <=  2*(n-i-1)-2 ;j++) {
                 System.out.print(j <= n-i-2 ? (n-i-1)+j +"\t" : 2*n - 2*i -(j-i-1) -2*i+ "\t");
             }
             System.out.println();

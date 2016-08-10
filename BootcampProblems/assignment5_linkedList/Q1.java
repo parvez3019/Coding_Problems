@@ -13,7 +13,6 @@ public class Q1 {
 			Node<Integer> newNode = new Node<Integer>(data);
 			newNode.next = head;
 			return newNode;
-	
 		}
 		head.next = insertrecur(head.next, data, pos-1);
 		return head;
@@ -22,8 +21,7 @@ public class Q1 {
 	
 	public static Node<Integer> deleterecur(Node<Integer> head , int pos)
 	{
-		if(pos == 0)
-		{
+		if(pos == 0) {
 			head = head.next;
 			return head;
 		}

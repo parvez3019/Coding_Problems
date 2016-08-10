@@ -45,45 +45,6 @@ public class pattern_3 {
         }
 
 
-
-    public static void print_pattern(int n )
-    {
-
-        for (int i = 0 ; i < n ; i++)
-        {
-            int num = 1;
-            for(int j = 0 ; j <= Math.abs(n-1-i) ; j++)
-            {
-                System.out.print("\t");
-            }
-            for(int j = 0 ; j < (n - Math.abs(n-1-i))  ;j++)
-            {
-                System.out.print(num +"\t\t");
-                num = num * (i - j) / (j + 1);
-            }
-            System.out.println();
-        }
-
-        for (int i = n ; i < 2*n-1 ; i++)
-        {
-            int num = 1;
-            for(int j = 0 ; j <= Math.abs(n-1-i) ; j++)
-            {
-                System.out.print("\t");
-            }
-            for(int j = 0 ; j < (n - Math.abs(n-1-i))  ;j++)
-            {
-                System.out.print(num +"\t\t");
-                num = num * Math.abs(n - i)/(j - i);
-            }
-            System.out.println();
-        }
-
-
-
-    }
-
-
     public static void main(String[] args)
     {
 //        print_pattern(5);
