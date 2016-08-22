@@ -1,13 +1,35 @@
 package codingchallenge.postpaidBillUsageProblem.test;
 
-import org.junit.Test;
-import service.CalculateUsage;
+
+import codingchallenge.postpaidBillUsageProblem.service.CalculateUsage;
+
+import java.util.Scanner;
 
 /**
  * Created by parvez on 8/8/16.
  */
+/*
+Input : 25 mins std call to abc
+Output : 25 Within Limit
+Input : 55 mins local call to abc
+Output : 27 Within Limit
+Input : 125 mins isd call to abc
+Output : 1500 Exceeded Limit by Rs.1200
+Input : 25 local sms to abc
+Output : 6 Within Limit
+Input : 50 std sms to abc
+Output : 25 Within Limit
+
+*/
 public class TestService {
     public static void main(String[] args){
-        new CalculateUsage().calculateUsage("1000 mins isd call to abcd");
+        Scanner s = new Scanner(System.in);
+        for (int i = 0; i < 5; i++) {
+            System.out.print("\nInput : ");
+            String input = s.nextLine();
+//            "1000 mins isd call to abcd"
+            System.out.print("\nOutput : ");
+            new CalculateUsage().calculateUsage(input);
+        }
     }
 }

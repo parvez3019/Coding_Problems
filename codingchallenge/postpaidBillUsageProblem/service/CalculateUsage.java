@@ -1,8 +1,9 @@
 package codingchallenge.postpaidBillUsageProblem.service;
 
-import inputParser.ParseInput;
-import serviceconstants.ServiceConstants;
-import serviceconstants.ServiceType;
+import codingchallenge.postpaidBillUsageProblem.inputParser.ParseInput;
+import codingchallenge.postpaidBillUsageProblem.serviceconstants.ServiceConstants;
+import codingchallenge.postpaidBillUsageProblem.serviceconstants.ServiceType;
+
 
 /**
  * Created by parvez on 8/8/16.

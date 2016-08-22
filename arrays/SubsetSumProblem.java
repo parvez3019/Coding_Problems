@@ -20,7 +20,6 @@ public class SubsetSumProblem {
 
     }
 
-
     public static void main(String[] args){
         int set[] = {3, 34, 4, 12, 5, 2}, sum = 9;
         System.out.print(isSubsetSum(set,set.length,sum));
