@@ -90,9 +90,6 @@ public class PowerSet {
 //        printPowerSet(list);
         System.out.println("Subset exist : " +isSubsetEqualSum(list,7));
         printSubsetSumEqual(list,7);
-
-
     }
-
 
 }
